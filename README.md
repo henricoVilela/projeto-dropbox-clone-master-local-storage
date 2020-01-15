@@ -10,7 +10,9 @@ Para trabalhar com o sistema de arquivos e upload/download no Nodejs foi utiliza
 
 ## IMPORTANTE:
 - Instalar o [NodeJs](https://nodejs.org/en/).
-- Executar o comando *'npm install'* no diretorio do projeto para baixar e instalar todas as dependencias.
+- Instalar o [Bower](https://bower.io/) *npm install -g bower*.
+- Executar o comando *'bower install'* na pasta *'app > public'*.
+- Executar o comando *'npm install'* na pasta *'app'* para baixar e instalar todas as dependencias do node.
 - Abrir um terminal na pasta *'app'* e executar o comando *'npm start'*. (localhost:3000/) para acessar a aplicação.
 - O fireBase ja esta configurado com o meu projeto publico de teste. Para uma nova configuração siga os [passos](https://firebase.google.com/docs/web/setup?authuser=0). 
 
