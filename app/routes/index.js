@@ -16,7 +16,7 @@ router.get('/file', (req,res)=>{
     //ler o arquivo e manda ele como resposta
     fs.readFile(path,(err, data)=>{
       if(err){
-        res.status(400).jon({
+        res.status(400).json({
           error: err
         });
       }else{
@@ -24,7 +24,7 @@ router.get('/file', (req,res)=>{
       }
     });
   }else{
-    res.status(400).jon({
+    res.status(400).json({
       error:'File not found.'
     });
   }
